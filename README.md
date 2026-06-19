@@ -21,27 +21,32 @@ Given one character list, every character in the original message is shifted by 
 
 ## Example
 ### ✔️ Correct Use
+**Example 1**
 - Message: I like Pizza
 - key: <izU~LGSpk6b
 - Encrypted Message: tTH4d;O(Ok
 -  Decrypted Message: I like Pizza
-
+  
+**Example 2**
 -  Message: 1 like Pizza
 -  key: )aDnH;U4&'J'
 -  Encrypted Message: DLLxLz2>}'
 -  Decrypted Message: 1 like Pizza
-
+  
+**Example 3**
 - Message: I Lik3 P1zz@
 - key: M63ROEU?e7jU
 - Encrypted Message: +b"1b*fnDW
 - Decrypted Message: I Lik3 P1zz@
   
 ### ⚠️ Incorrect Use
+**Example 1**
 -  Message: I Would Like 1 Pizza
 -  key: IG>wSOAk=4"slNxr_C"*
 -  Encrypted Message: '=bQ3R"s{8w7t#Wr
 -  Decrypted Message: I Would Like1 Pizza (space before number is lost)
 
+**Example 2**
 - Message: I would like pizza
 - key: ]>+J\rn'*}fFn6IRYF
 - Encrypted Message: Aj]3cuy/>cuNM@I
