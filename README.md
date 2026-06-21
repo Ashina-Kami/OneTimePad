@@ -7,7 +7,7 @@ is encrypted using a randomly generated key.
 
 Given one character list, every character in the original message is shifted by the position of the corresponding key character in the character list.
 
-* Theoretically unbreakable when:
+Theoretically unbreakable when:
 - The key is truly random
 - The key is the same length as the message
 - The key is never reused
