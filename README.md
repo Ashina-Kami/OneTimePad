@@ -11,15 +11,24 @@ Given one character list, every character in the original message is shifted by 
 
 ## How to use?
 ### To encrypt
-- Enter message to encrypt, Capitalize first letter of each word (ex: I Like Pizza)
-- First character of the message can be a number (ex: 1 Like Pizza)
-- Don't use number alone as letters -> I Would Like 1 Pizza -> I Would Like1 Pizza
-
+### Encrypt Message
+- Enter message to encrypt
+- Store key
+### Encrypt File
+- Enter filepath
+- Enter save location for encrypted file
+- Store key
 ### To decrypt
+### Decrypt Message
 - Enter key
 - Enter encrypted message
+### Decrypt File
+- Enter filepath
+- Enter Key
+- Enter save location for decrypted file
 
-## Example
+
+## Example (outdated v1)
 ### ✔️ Correct Use
 **Example 1**
 - Message: I like Pizza
