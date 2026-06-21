@@ -11,18 +11,18 @@ Given one character list, every character in the original message is shifted by 
 
 ## How to use?
 ### To encrypt
-### Encrypt Message
+#### Encrypt Message
 - Enter message to encrypt
 - Store key
-### Encrypt File
+#### Encrypt File
 - Enter filepath
 - Enter save location for encrypted file
 - Store key
 ### To decrypt
-### Decrypt Message
+#### Decrypt Message
 - Enter key
 - Enter encrypted message
-### Decrypt File
+#### Decrypt File
 - Enter filepath
 - Enter Key
 - Enter save location for decrypted file
