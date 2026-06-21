@@ -21,8 +21,8 @@ OTP is theoretically unbreakable when:
 - The key is kept secret
 
 This implementation meets all those conditions.
-No protection offered in case of key mismanagement
-USE AT YOUR OWN RISK
+NO PROTECTION OFFERED IN CASE OF KEY MISMANAGEMENT.
+USE AT YOUR OWN RISK.
 
 
 ## How to use?
