@@ -26,6 +26,7 @@ USE AT YOUR OWN RISK.
 
 
 ## How to use?
+⚠️ File encrypting/decrypting only work with txt based file (ex: .txt, .py)
 ### To encrypt
 #### Encrypt Message
 - Enter message to encrypt
@@ -43,7 +44,7 @@ USE AT YOUR OWN RISK.
 - Enter Key
 - Enter save location for decrypted file
 
-⚠️ File encrypting/decrypting only work with txt based file (ex: .txt, .py)
+
 
 ## Example (outdated v1)
 ### ✔️ Correct Use
