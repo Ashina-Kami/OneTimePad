@@ -7,7 +7,16 @@ is encrypted using a randomly generated key.
 
 Given one character list, every character in the original message is shifted by the position of the corresponding key character in the character list.
 
-* Theoretically unbreakable
+* Theoretically unbreakable when:
+- The key is truly random
+- The key is the same length as the message
+- The key is never reused
+- The key is kept secret
+
+This implementation meets all those conditions.
+No protection offered in case of key mismanagement
+USE AT YOUR OWN RISK
+  
 
 ## How to use?
 ### To encrypt
@@ -27,6 +36,8 @@ Given one character list, every character in the original message is shifted by 
 - Enter Key
 - Enter save location for decrypted file
 
+## ⚠️ Disclaimer 
+File encrypting/decrypting only work with txt based file (ex: .txt, .py)
 
 ## Example (outdated v1)
 ### ✔️ Correct Use
