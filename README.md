@@ -13,7 +13,7 @@ Theoretically unbreakable when:
 - The key is never reused
 - The key is kept secret
   
-##### ⚠️ Disclaimer 
+#### ⚠️ Disclaimer 
 OTP is theoretically unbreakable when:
 - The key is truly random
 - The key is the same length as the message
