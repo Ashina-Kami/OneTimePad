@@ -12,11 +12,18 @@ Theoretically unbreakable when:
 - The key is the same length as the message
 - The key is never reused
 - The key is kept secret
+  
+##### ⚠️ Disclaimer 
+OTP is theoretically unbreakable when:
+- The key is truly random
+- The key is the same length as the message
+- The key is never reused
+- The key is kept secret
 
 This implementation meets all those conditions.
 No protection offered in case of key mismanagement
 USE AT YOUR OWN RISK
-  
+
 
 ## How to use?
 ### To encrypt
@@ -36,8 +43,7 @@ USE AT YOUR OWN RISK
 - Enter Key
 - Enter save location for decrypted file
 
-## ⚠️ Disclaimer 
-File encrypting/decrypting only work with txt based file (ex: .txt, .py)
+⚠️ File encrypting/decrypting only work with txt based file (ex: .txt, .py)
 
 ## Example (outdated v1)
 ### ✔️ Correct Use
